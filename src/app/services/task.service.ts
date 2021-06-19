@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
-import { TASKS } from '../mock-task';
+import { Observable } from 'rxjs';
 import { Task } from '../Task';
 
 
