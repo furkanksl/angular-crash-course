@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpClient , HttpHeaders} from '@angular/common/http';
 import { Task } from 'src/app/Task';
 import { TaskService } from '../../services/task.service';
 
